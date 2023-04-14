@@ -7,6 +7,9 @@
     <title>Sound Vibes</title>
     <link rel="icon" href="./img/rolling.ico" />
     <link rel="stylesheet" href="./css/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -30,13 +33,13 @@
                 <input class="form-control me-2" type="search" placeholder="Buscar producto" aria-label="Search">
               </div>
             </li>
-            <li class="nav-item">
+            <li class="nav-item contacto">
               <a class="nav-link" href="#">Contacto</a>
             </li>
             <li class="nav-item1">
               <a class="nav-link" href="#">Sobre Nosotros</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item logo">
               <a class="nav-link" href="./index.html">
                 <img src="./img/Sound_Vibes_Logo.png" alt="Logo">
               </a>
@@ -59,77 +62,81 @@
 
     <!-- NAVBAR FIN-->
     <!-- CARROUSEL -->
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="./img/banner1 (2).jpg" class="d-block w-100" alt="...">
+    
+    <div class="carusel mx-auto">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/banner1 (2).jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/banner 2.1.jpg" class="d-block w-100" alt="...">
+          </div>
         </div>
-        <div class="carousel-item">
-          <img src="./img/banner 2.1.jpg" class="d-block w-100" alt="...">
-        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
     </div>
+
     <!-- CARROUSEL FIN -->
+
+    <div class="titulo1 mx-auto"><h2>Categorias</h2></div>
+
     <!-- DIV QUE CONTIENE TODAS LAS CARDS -->
 
-    <div id="TodasLasCards">
-
-        <!-- CARD DE GUITARRAS -->
-
-      <div class="carta card" style="width: 22rem">
-        <img src="./img/guitarra-acustica.jpg" class="card-img-top" height="161px" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title text-white">Guitarras</h5>
-          <p class="card-text text-white">
-            En esta sección podrás encontrar desde guitarras acústicas con
-            cuerdas de nylon o de acero, hasta guitarras electricas
-          </p>
-          <a href="#" class="btn btn-primary">Ver mas</a>
+    <div class="container categorias">
+      <div class="row justify-space-evenly">
+        <div class="col-md-5">
+          <div class="image-container">
+            <img src="./img/pexels-pixabay-417451.jpg" class="img-fluid" alt="Imagen 1">
+            <h3 class="titulo2">Guitarras</h3>
+            <div class="overlay">
+              <div class="text">Encuentra tu sonido perfecto con nuestra selección de guitarras. Desde acústicas hasta eléctricas, tenemos todo lo que necesitas para crear tu música única y expresiva</div>
+              <button class="btn">Ver más</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <div class="image-container">
+            <img src="./img/pexels-pixabay-164743.jpg" class="img-fluid" alt="Imagen 2">
+            <h3 class="titulo2">Pianos</h3>
+            <div class="overlay">
+              <div class="text">Descubre el poder de las teclas con nuestros pianos. Desde los más clásicos hasta los más modernos, nuestros pianos tienen la calidad y la versatilidad que necesitas para crear música impresionante</div>
+              <button class="btn">Ver más</button>
+            </div>
+          </div>
         </div>
       </div>
-
-      <!-- CARD DE GUITARRAS FIN-->
-      <!-- CARD DE BAJOS -->
-
-      <div class="carta card" style="width: 22rem">
-        <img src="./img/bajo-electrico.jpg" class="card-img-top" height="161px" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title text-white">Bajos</h5>
-          <p class="card-text text-white">
-            En esta sección podrás encontrar desde bajos acústicos hasta bajos
-            electricos de cuatro, cinco y seis cuerdas.
-          </p>
-          <a href="#" class="btn btn-primary">Ver mas</a>
+      <div class="row justify-space-evenly">
+        <div class="col-md-5">
+          <div class="image-container">
+            <img src="./img/pexels-pnw-production-7577317.jpg" class="img-fluid" alt="Imagen 3">
+              <h3 class="titulo2">Trompetas</h3>
+            <div class="overlay">
+              <div class="text">Haz vibrar tus sentidos con nuestra amplia selección de trompetas. Desde las más sencillas hasta las más profesionales, nuestros instrumentos te permitirán expresarte con estilo y elegancia</div>
+              <button class="btn">Ver más</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <div class="image-container">
+            <img src="./img/pexels-daniel-balarezo-11199906.jpg" class="img-fluid" alt="Imagen 4">
+              <h3 class="titulo2">Accesorios</h3>
+            <div class="overlay">
+              <div class="text">Completa tu sonido con nuestros accesorios musicales de alta calidad. Desde afinadores hasta cables, nuestra selección de accesorios te ayudará a crear y mantener el sonido perfecto para tu música</div>
+              <button class="btn">Ver más</button>
+            </div>
+          </div>
         </div>
       </div>
-
-      <!-- CARD DE BAJOS FIN-->
-      <!-- CARD DE TECLADOS -->
-
-      <div class="carta card" style="width: 22rem">
-        <img src="./img/teclado.jpg" class="card-img-top" height="161px" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title text-white">Teclados</h5>
-          <p class="card-text text-white">
-            En esta sección podrás encontrar todo tipo de teclados de distintas
-            marcas y de la mejor calidad en disponible en el mercado.
-          </p>
-          <a href="#" class="btn btn-primary">Ver mas</a>
-        </div>
-      </div>
-
-      <!-- CARD DE TECLADOS FIN-->
-
     </div>
-    <!-- DIV QUE CONTIENE TODAS LAS CARDS FIN-->
+    
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
