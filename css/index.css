@@ -68,7 +68,7 @@ html, body {
 }
 .image-container img{
     border-radius: 16px;
-    opacity: 0.9;
+    opacity: 1;
 }
   
 .overlay {
