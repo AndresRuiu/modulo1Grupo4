@@ -31,14 +31,12 @@ html, body {
     position: absolute;
     width: 800px;
     
-    
 }
 
 .nota2{
     position: absolute;
-    transform: translate(67%);
+    transform: translate(89%);
     width: 800px;
-
 }
 
 .titulo1{
@@ -119,7 +117,6 @@ html, body {
     transform: translate(205%, 550%);
     color: #ffffff;
     background-color: #d75b32;
-    
 }
 
 .overlay .btn:hover{
