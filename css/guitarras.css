@@ -30,15 +30,14 @@ html, body {
     transform: translate(-10%);
     position: absolute;
     width: 800px;
-    
+    background-repeat: no-repeat;
     
 }
 
 .nota2{
     position: absolute;
-    transform: translate(91%);
+    transform: translate(67%);
     width: 800px;
-
 }
 
 .titulo1{
@@ -92,7 +91,7 @@ html, body {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
-    font-size: 35px;
+    font-size: 25px;
   }
   
   .image-container:hover .titulo2 {
@@ -119,7 +118,6 @@ html, body {
     transform: translate(205%, 550%);
     color: #ffffff;
     background-color: #d75b32;
-    
 }
 
 .overlay .btn:hover{
@@ -204,4 +202,12 @@ footer {
     width: 100%;
 }
 
+.negrita{
+    color: black;
+    text-align: center;
+}
 
+.botonComprar{
+        --bs-btn-padding-y: 1rem !important;
+        --bs-btn-padding-x: 0.5rem !important;
+}
