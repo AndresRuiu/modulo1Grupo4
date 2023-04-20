@@ -117,6 +117,12 @@ html, body {
     transform: translate(205%, 550%);
     color: #ffffff;
     background-color: #d75b32;
+    
+}
+
+.overlay .btn a{
+    text-decoration: none;
+    color: #ffffff;
 }
 
 .overlay .btn:hover{
