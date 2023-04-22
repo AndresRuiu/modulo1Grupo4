@@ -48,7 +48,6 @@ html, body {
 
 .title {
     text-align: center;
-    /* Estilos para el título en pantallas grandes */
     width: 100%;
     margin-bottom: 1rem;
 }
