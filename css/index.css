@@ -130,46 +130,47 @@ html, body {
     background-color: #d75b326b;
 }
 
-
-.navbar-nav img {
-    display: block;
-    margin: auto;
-    height: 100%;
-    width: 45%;
+.logo-container {
+  display: flex;
+  align-items: center;
 }
 
-.bBusqueda{
-    width: 160px;
-}
-
-
-.nav-item1 .nav-link{
-    width: 130px;
+.navbar-brand img {
+    width: 200px;
+    height: 40px;
+    margin-right: 10px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .btn-custom{
-    border: solid red 2px;
-    border-radius: 10px;
-    justify-content: center;
+  border: solid red 2px;
+  border-radius: 10px;
+  justify-content: center;
+  margin-left: 5px;
+  margin-top: 5px;
 }
 
 .btn-custom .btn:hover{
-    text-decoration: none;
-    color: black;
-    background-color: rgba(255, 127, 80, 0.486);
+  text-decoration: none;
+  color: black;
+  background-color: rgba(255, 127, 80, 0.486);
 }
 
-.navbar a{
-    color: rgb(0, 0, 0);
-    text-decoration: none;
+.form-control {
+    border-radius: 0;
 }
-
-.contacto{
-    margin-left: 5px;
+.btn-outline-success {
+    border-radius: 0;
 }
-
-.logo{
-    transform: translateX(-35px);
+.navbar-toggler {
+    border: none;
+}
+.navbar-toggler-icon {
+    background-image: url("https://cdn.iconscout.com/icon/free/png-256/menu-1851563-1569479.png");
+    width: 20px;
+    height: 20px;
 }
 
 footer {

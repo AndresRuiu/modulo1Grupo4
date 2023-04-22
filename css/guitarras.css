@@ -126,39 +126,48 @@ html, body {
 }
 
 
-.navbar-nav img {
-    display: block;
-    margin: auto;
-    height: 100%;
-    width: 45%;
-}
-
-.bBusqueda{
-    width: 160px;
-}
-
-
-.nav-item1 .nav-link{
-    width: 130px;
-}
-
-.btn-custom{
+.logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-brand img {
+      width: 200px;
+      height: 40px;
+      margin-right: 10px;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+  }
+  
+  .btn-custom{
     border: solid red 2px;
     border-radius: 10px;
     justify-content: center;
-}
-
-.navbar{
-    color: brown;
-}
-
-.contacto{
     margin-left: 5px;
-}
-
-.logo{
-    transform: translateX(-35px);
-}
+    margin-top: 5px;
+  }
+  
+  .btn-custom .btn:hover{
+    text-decoration: none;
+    color: black;
+    background-color: rgba(255, 127, 80, 0.486);
+  }
+  
+  .form-control {
+      border-radius: 0;
+  }
+  .btn-outline-success {
+      border-radius: 0;
+  }
+  .navbar-toggler {
+      border: none;
+  }
+  .navbar-toggler-icon {
+      background-image: url("https://cdn.iconscout.com/icon/free/png-256/menu-1851563-1569479.png");
+      width: 20px;
+      height: 20px;
+  }
 
 footer {
     font-size: 16px;
