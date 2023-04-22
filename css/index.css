@@ -46,10 +46,18 @@ html, body {
     width: 800px;
 }
 
+.title {
+    text-align: center;
+    /* Estilos para el título en pantallas grandes */
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
 @media (max-width: 767px) {
-    .nota2, .nota1 {
+    .nota2 {
       display: none;
     }
+
 }
 .titulo1{
     text-align: center;
