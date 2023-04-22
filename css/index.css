@@ -4,7 +4,10 @@
 
 body{
     background-image: linear-gradient(to top, #d75a32, #a54f24, #f1a76c, #f1eae0, #ffffff);
-    
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 html, body {
     max-width: 100%;
@@ -43,6 +46,11 @@ html, body {
     width: 800px;
 }
 
+@media (max-width: 767px) {
+    .nota2, .nota1 {
+      display: none;
+    }
+}
 .titulo1{
     text-align: center;
     background-color: #a54f24;
