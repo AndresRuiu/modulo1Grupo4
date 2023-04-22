@@ -50,6 +50,9 @@ html, body {
     .nota2 {
       display: none;
     }
+    .nota1{
+        top: 250px;
+    }
 
 }
 .titulo1{
