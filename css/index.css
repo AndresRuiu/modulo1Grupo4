@@ -54,6 +54,10 @@ html, body {
     .nota2{
         left: -325px;
     }
+
+    .overlay .btn{
+        transform: translate(155%, 470%);
+        }
 }
 
 @media (min-width: 424px) {
@@ -64,11 +68,18 @@ html, body {
     .nota2{
         left: -370px;
     }
+    .overlay .btn{
+        transform: translate(185%, 550%);
+        }
+
 }
 
 @media (min-width: 1000px){
     .nota2{
         left: 80px;
+    }
+    .overlay .btn{
+    transform: translate(205%, 550%);
     }
 }
 
@@ -147,11 +158,12 @@ html, body {
 } 
 
 .overlay .btn{
-    transform: translate(205%, 550%);
+    
     color: #ffffff;
     background-color: #d75b32;
     
 }
+
 
 .overlay .btn a{
     text-decoration: none;
