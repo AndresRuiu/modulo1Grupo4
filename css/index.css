@@ -37,8 +37,9 @@ html, body {
     transform: translate(-10%);
     position: absolute;
     width: 800px;
-    
 }
+
+
 
 .nota2{
     position: absolute;
@@ -47,13 +48,18 @@ html, body {
 }
 
 @media (max-width: 767px) {
-    .nota2 {
-      display: none;
-    }
     .nota1{
-        top: 240px;
+        overflow-y: scroll;
     }
-
+    .nota1 img{
+        max-width: 100%;
+    }
+    .nota2 img{
+        max-width: 100%;
+    }
+    .nota2{
+        left: -335px;
+    }
 }
 .titulo1{
     text-align: center;
