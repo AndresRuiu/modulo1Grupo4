@@ -43,11 +43,11 @@ html, body {
 
 .nota2{
     position: absolute;
-    transform: translate(92%);
+    transform: translate(100%);
     width: 800px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 375px) {
     .nota1{
         overflow-y: scroll;
     }
@@ -58,9 +58,29 @@ html, body {
         max-width: 100%;
     }
     .nota2{
-        left: -295px;
+        left: -325px;
     }
 }
+
+@media (min-width: 424px) {
+    .nota1{
+        overflow-y: scroll;
+    }
+    .nota1 img,.nota2 img{
+        max-width: 100%;
+    }
+
+    .nota2{
+        left: -370px;
+    }
+}
+
+@media (min-width: 1284px){
+    .nota2{
+        left: 80px;
+    }
+}
+
 .titulo1{
     text-align: center;
     background-color: #a54f24;
