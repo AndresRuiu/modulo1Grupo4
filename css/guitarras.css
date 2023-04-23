@@ -151,7 +151,7 @@ html, body {
   .btn-custom .btn:hover{
     text-decoration: none;
     color: black;
-    background-color: rgba(255, 127, 80, 0.486);
+    background-color: rgba(255, 0, 0, 0.486);
   }
   
   .form-control {

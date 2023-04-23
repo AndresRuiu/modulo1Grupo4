@@ -4,10 +4,6 @@
 
 body{
     background-image: linear-gradient(to top, #d75a32, #a54f24, #f1a76c, #f1eae0, #ffffff);
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-left: 60px;
-    margin-right: 60px;
 }
 html, body {
     max-width: 100%;
@@ -192,7 +188,7 @@ html, body {
 .btn-custom .btn:hover{
   text-decoration: none;
   color: black;
-  background-color: rgba(255, 127, 80, 0.486);
+  background-color: rgba(255, 0, 0, 0.486);
 }
 
 .form-control {

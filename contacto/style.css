@@ -37,7 +37,7 @@ html, body {
 .btn-custom .btn:hover{
   text-decoration: none;
   color: black;
-  background-color: rgba(255, 127, 80, 0.486);
+  background-color: rgba(255, 0, 0, 0.486);
 }
 
 .form-control {
@@ -86,6 +86,21 @@ section {
 	height: 100%;
 }
 
+.btn a:hover{
+  background-color: red;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border: white;
+}
+
+.btn a{
+  padding: 10px;
+  color: black;
+  border: solid red 2px;
+  text-decoration: none;
+  border-radius: 5px;
+}
 
 footer {
     font-size: 16px;

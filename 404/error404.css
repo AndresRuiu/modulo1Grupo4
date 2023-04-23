@@ -1,22 +1,4 @@
-*{
-  font-family: 'Bree Serif', serif;
-}
-
-#grupo img {
-    border-radius: 50%;
-  }
-  
-  .card1 img {
-    filter: grayscale(1);
-  }
-  
-  .card1 img:hover {
-    filter: grayscale(0);
-    transition-property: filter;
-    transition-duration: 0.5s;
-  }
-  
-  .logo-container {
+.logo-container {
     display: flex;
     align-items: center;
   }
@@ -57,14 +39,33 @@
       background-image: url("https://cdn.iconscout.com/icon/free/png-256/menu-1851563-1569479.png");
       width: 20px;
       height: 20px;
-}
-
-
-  .card1 img {
-    align-items: center;
   }
 
-  footer {
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+
+.container .btn{
+    border: solid red 2px;
+    border-radius: 10px;
+    color: black;
+}
+
+.container .btn:hover{
+    border: solid red 2px;
+    border-radius: 10px;
+    color: black;
+    background-color: rgba(255, 0, 0, 0.486);
+}
+
+.container img{
+    width: 50%;
+}
+
+footer {
     font-size: 16px;
     color: #555;
     margin-top: 100px;
@@ -91,4 +92,3 @@
   footer p{
     margin-bottom: 10px;
   }
-  
