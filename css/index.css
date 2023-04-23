@@ -70,7 +70,7 @@ html, body {
     }
 }
 
-@media (min-width: 1284px){
+@media (min-width: 1000px){
     .nota2{
         left: 80px;
     }
