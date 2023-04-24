@@ -125,7 +125,7 @@ html, body {
     color: #ffffff;
     background-color: #d75b326b;
 }
-@media (max-width: 375px) {
+@media (max-width: 376px) {
     .nota1 img{
         max-width: 100%;
     }
@@ -138,18 +138,18 @@ html, body {
         left: -325px;
     }
     .overlay .btn{
-        transform: translate(95%, 710%);
+        transform: translate(92%, 710%);
         }
 }
 
-@media (max-width: 426px) {
+@media (min-width: 424px) {
     .nota1 img,.nota2 img{
         max-width: 100%;
     }
 
     .nota2 img{
         max-width: 100%;
-        transform: translateX(42px);
+        transform: translateX(48px);
     }
     .nota2{
         transform: translateY(-77px);
@@ -161,9 +161,12 @@ html, body {
 
 }
 
-@media (min-width: 426px){
+@media (min-width: 427px){
     .nota1 img{
-        transform: translateX(-60px);
+        transform: translateX(60px);
+    }
+    .nota2 img{
+        transform: translateY(80px);
     }
     .nota2{
         left: 80px;
