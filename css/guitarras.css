@@ -88,6 +88,10 @@ html, body {
     transform: translate(-50%, -50%);
     z-index: 1;
     font-size: 25px;
+    background-color: #d75b32c2;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
   }
   
   .image-container:hover .titulo2 {
@@ -271,7 +275,3 @@ footer {
     width: 100%;
 }
 
-.negrita{
-    color: black;
-    text-align: center;
-}
