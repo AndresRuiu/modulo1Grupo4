@@ -163,7 +163,7 @@ html, body {
 
 @media (min-width: 427px){
     .nota1 img{
-        transform: translateX(60px);
+        transform: translateX(70px);
     }
     .nota2 img{
         transform: translateY(80px);
@@ -176,7 +176,7 @@ html, body {
         transform: translate(130%, 850%);
     }
     .titulo1{
-        transform: translateX(310px);
+        transform: translateX(330px);
     }
 }
 
