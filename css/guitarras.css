@@ -83,12 +83,12 @@ html, body {
 .titulo2 {
     color: #ffffff;
     position: absolute;
-    top: 80%;
+    top: 75%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
     font-size: 25px;
-    background-color: #d75b32c2;
+    background-color: hsla(15, 67%, 52%, 0.7);
     padding: 10px;
     border-radius: 10px;
     text-align: center;
