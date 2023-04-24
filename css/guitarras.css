@@ -16,6 +16,11 @@ html, body {
     backdrop-filter: blur(10px);
 }
 
+.container1{
+    margin-top: 50px;
+    
+}
+
 .titulo{
     display: flex;
     flex-direction: row;
@@ -30,14 +35,6 @@ html, body {
     transform: translate(-10%);
     position: absolute;
     width: 800px;
-    background-repeat: no-repeat;
-    
-}
-
-.nota2{
-    position: absolute;
-    transform: translate(67%);
-    width: 800px;
 }
 
 .titulo1{
@@ -45,11 +42,10 @@ html, body {
     background-color: #a54f24;
     color: #ffffff;
     height: 70px;
-    width: 320px;
-    margin-top: 50px;
-    align-items: center;
+    width: 150px;
     border-radius: 20px;
     z-index: 1;
+    transform: translateY(30px);
 }
 
 .titulo1 h2{
@@ -115,7 +111,6 @@ html, body {
 } 
 
 .overlay .btn{
-    transform: translate(130%, 850%);
     color: #ffffff;
     background-color: #d75b32;
 }
@@ -130,7 +125,57 @@ html, body {
     color: #ffffff;
     background-color: #d75b326b;
 }
+@media (max-width: 375px) {
+    .nota1 img{
+        max-width: 100%;
+    }
+    .nota2 img{
+        max-width: 100%;
+        transform: translateX(42px);
+    }
+    .nota2{
+        transform: translateY(-77px);
+        left: -325px;
+    }
+    .overlay .btn{
+        transform: translate(95%, 710%);
+        }
+}
 
+@media (max-width: 426px) {
+    .nota1 img,.nota2 img{
+        max-width: 100%;
+    }
+
+    .nota2 img{
+        max-width: 100%;
+        transform: translateX(42px);
+    }
+    .nota2{
+        transform: translateY(-77px);
+        left: -325px;
+    }
+    .overlay .btn{
+        transform: translate(110%, 780%);
+        }
+
+}
+
+@media (min-width: 426px){
+    .nota1 img{
+        transform: translateX(-60px);
+    }
+    .nota2{
+        left: 80px;
+    }
+    
+    .overlay .btn{
+        transform: translate(130%, 850%);
+    }
+    .titulo1{
+        transform: translateX(310px);
+    }
+}
 
 
 .logo-container {
