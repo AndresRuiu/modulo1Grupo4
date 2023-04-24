@@ -5,8 +5,14 @@
 
 body{
     background-image: linear-gradient(to top,  #f1a86cb4, #f1eae0, #ffffff);
+ 
 }
 
+main{
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
 
 .logo-container {
     display: flex;
@@ -51,6 +57,21 @@ body{
  background-image: url("https://cdn.iconscout.com/icon/free/png-256/menu-1851563-1569479.png");
   width: 20px;
   height: 20px;
+}
+
+@media (max-width: 425px) {
+  #imagen-producto img{
+    width: 100%;
+    margin-right: 0;
+  }
+  #imagen-producto{
+    margin-bottom: 20px;
+    padding-left: 15px;
+  }
+
+  #info-producto h1{
+    text-align: center;
+  }
 }
 
 
