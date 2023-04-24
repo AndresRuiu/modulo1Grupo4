@@ -115,15 +115,22 @@ html, body {
 } 
 
 .overlay .btn{
-    transform: translate(205%, 550%);
+    transform: translate(130%, 850%);
     color: #ffffff;
     background-color: #d75b32;
 }
+
+.overlay .btn a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
 
 .overlay .btn:hover{
     color: #ffffff;
     background-color: #d75b326b;
 }
+
 
 
 .logo-container {
@@ -219,9 +226,4 @@ footer {
 .negrita{
     color: black;
     text-align: center;
-}
-
-.botonComprar{
-        --bs-btn-padding-y: 1rem !important;
-        --bs-btn-padding-x: 0.5rem !important;
 }
