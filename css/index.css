@@ -43,7 +43,7 @@ html, body {
     width: 800px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
 
     .nota1 img{
         max-width: 100%;
