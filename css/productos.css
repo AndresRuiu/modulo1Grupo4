@@ -155,4 +155,7 @@ footer {
   footer p{
     margin-bottom: 10px;
   }
-  
+  .btn a{
+    text-decoration: none;
+    color: black;
+  }
