@@ -52,14 +52,7 @@ body{
   border-radius: 0;
 }
 
-.navbar-toggler {
- border: none;
-}
-.navbar-toggler-icon {
- background-image: url("https://cdn.iconscout.com/icon/free/png-256/menu-1851563-1569479.png");
-  width: 20px;
-  height: 20px;
-}
+
 
 .container {
     margin-top: 50px;

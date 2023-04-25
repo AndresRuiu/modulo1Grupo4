@@ -8,10 +8,16 @@ body{
  
 }
 
+
 main{
   margin-top: 20px;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
 }
 
 .navbar a{
@@ -22,11 +28,6 @@ main{
   color: rgba(121, 7, 7, 0.699);
 }
 
-.logo-container {
-    display: flex;
-    align-items: center;
-}
-  
 .navbar-brand img {
     width: 200px;
     height: 40px;
@@ -35,37 +36,28 @@ main{
     left: 50%;
     transform: translateX(-50%);
 }
-  
+
 .btn-custom{
-    border: solid red 2px;
-    border-radius: 10px;
-    justify-content: center;
-    margin-left: 5px;
-    margin-top: 5px;
+  border: solid red 2px;
+  border-radius: 10px;
+  justify-content: center;
+  margin-left: 5px;
+  margin-top: 5px;
 }
-  
+
 .btn-custom .btn:hover{
-    text-decoration: none;
-    color: black;
-    background-color: rgba(255, 0, 0, 0.486);
+  text-decoration: none;
+  color: black;
+  background-color: rgba(255, 0, 0, 0.486);
 }
-  
+
 .form-control {
-  border-radius: 0;
+    border-radius: 0;
 }
-
 .btn-outline-success {
-  border-radius: 0;
+    border-radius: 0;
 }
 
-.navbar-toggler {
- border: none;
-}
-.navbar-toggler-icon {
- background-image: url("https://cdn.iconscout.com/icon/free/png-256/menu-1851563-1569479.png");
-  width: 20px;
-  height: 20px;
-}
 
 @media (max-width: 425px) {
   #imagen-producto img{
@@ -155,6 +147,7 @@ footer {
   footer p{
     margin-bottom: 10px;
   }
+  
   .btn a{
     text-decoration: none;
     color: black;
