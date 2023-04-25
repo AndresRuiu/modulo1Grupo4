@@ -21,6 +21,14 @@
     align-items: center;
   }
   
+  .navbar a{
+    color: black;
+  }
+
+  .navbar a:hover{
+    color: rgba(121, 7, 7, 0.699);
+  }
+
   .navbar-brand img {
       width: 200px;
       height: 40px;
