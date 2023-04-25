@@ -14,6 +14,14 @@ main{
   padding-right: 10px;
 }
 
+.navbar a{
+  color: black;
+}
+
+.navbar a:hover{
+  color: rgba(121, 7, 7, 0.699);
+}
+
 .logo-container {
     display: flex;
     align-items: center;
